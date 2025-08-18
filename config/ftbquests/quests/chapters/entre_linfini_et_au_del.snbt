@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "entre_linfini_et_au_del"
+	group: "42B2D05ABFB516BC"
+	icon: "tconstruct:cheese_block"
+	id: "0F8035DB850A89E0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["389DD8B690EDC8FD"]
+			id: "4E6AB69BB468B6D6"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				id: "6DFEBE5A77485CF2"
+				title: "Orbit"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D8AE844A7920546"
+				"75CB522D0BB777AB"
+			]
+			id: "696D21AD241AF5CE"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "4623409E0197D872"
+				title: "Frozen"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["696D21AD241AF5CE"]
+			id: "7A768BC5C1CE09B9"
+			tasks: [{
+				dimension: "ad_astra:glacio_orbit"
+				id: "0051FDA37C3FD4D8"
+				title: "Frozen Orbit"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4AA2B0458C2C925D"]
+			id: "7D045FE2EC015CAE"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "4FECC1250B171720"
+				title: "Mars"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D045FE2EC015CAE"]
+			id: "1E2C476453504EAF"
+			tasks: [{
+				dimension: "ad_astra:mars_orbit"
+				id: "3748E19E19D7A04F"
+				title: "Mars Obit"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D045FE2EC015CAE"]
+			id: "1D8AE844A7920546"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "78711E760341ED42"
+				title: "Mercure"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D8AE844A7920546"]
+			id: "535204CAC95B651A"
+			tasks: [{
+				dimension: "ad_astra:mercury_orbit"
+				id: "19AEBBD8E0DA3B07"
+				title: "Mercure Orbit"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["389DD8B690EDC8FD"]
+			id: "4AA2B0458C2C925D"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "03A7A949EDE6F694"
+				title: "Lune"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4AA2B0458C2C925D"]
+			id: "376F98DE26D5E24B"
+			tasks: [{
+				dimension: "ad_astra:moon_orbit"
+				id: "1745464D42BFCAB4"
+				title: "Lune Orbit"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D045FE2EC015CAE"]
+			id: "75CB522D0BB777AB"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "4E878FA1F17B6D37"
+				title: "Venus"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75CB522D0BB777AB"]
+			id: "63E3C283C0C4B992"
+			tasks: [{
+				dimension: "ad_astra:venus_orbit"
+				id: "2938DC82958D3513"
+				title: "Venus Orbit"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "389DD8B690EDC8FD"
+			tasks: [
+				{
+					id: "6015BD40D957E692"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F067B7F4C40B81E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Entre l'infini et au-delà"
+}
