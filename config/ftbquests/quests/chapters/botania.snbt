@@ -515,6 +515,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["3740AFF088204779"]
 			description: [
 				"&aBotania&r is a tech mod disguised as a magic mod, but with TONS of cool trinkets and toys to play with!"
 				""
@@ -543,16 +544,8 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "51EFBB115AE2746A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:mystical_flowers"
-					}
-				}
-				title: "Any #botania:mystical_flowers"
-				type: "item"
+				id: "25C552E9121E3C2B"
+				type: "checkmark"
 			}]
 			title: "Welcome to &aBotania&r!"
 			x: 5.0d

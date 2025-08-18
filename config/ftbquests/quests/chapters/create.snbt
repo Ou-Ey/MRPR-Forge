@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["13D26EBAB5DE6F4C"]
 			description: [
 				"&5&lWelcome To Create!"
 				""

@@ -18,10 +18,16 @@
 				title: "Invasion réussie"
 				type: "dimension"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
+			dependencies: [
+				"077122958F9F52C2"
+				"51043F3F89805E92"
+				"1E3982A98817B028"
+			]
+			dependency_requirement: "one_completed"
 			id: "71B400F8222B5092"
 			tasks: [
 				{
@@ -37,8 +43,131 @@
 				}
 			]
 			title: "Prêt à conquérir"
-			x: -6.0d
+			x: -4.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1773D38BE1ED2A22"
+				"76F7F18A1D6AD9FF"
+			]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:piglin_head"
+			id: "077122958F9F52C2"
+			tasks: [{
+				advancement: "occultism:occultism/familiar/dragon_nugget"
+				criterion: ""
+				id: "70627AA257E4AD39"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72758FF5AC1A16D7"]
+			id: "1773D38BE1ED2A22"
+			tasks: [{
+				id: "06A965DFE502B715"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76F7F18A1D6AD9FF"]
+			id: "72758FF5AC1A16D7"
+			tasks: [{
+				id: "2AF0A81CEF437BCE"
+				item: {
+					Count: 1
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63C024AEDD0BFDEC"]
+			id: "76F7F18A1D6AD9FF"
+			tasks: [{
+				id: "568100B1035CDA82"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BFB3F619E1B43C5"]
+			id: "1E3982A98817B028"
+			tasks: [{
+				id: "63B7EDCAD081AF23"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BFB3F619E1B43C5"]
+			id: "51043F3F89805E92"
+			tasks: [{
+				id: "6CCA69AB37E73493"
+				structure: "minecraft:ruined_portal_nether"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BFB3F619E1B43C5"]
+			id: "58D1454935F968D4"
+			tasks: [{
+				id: "3B5FE0936301A754"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["304CF0AFFECEC826"]
+			id: "63C024AEDD0BFDEC"
+			tasks: [{
+				id: "0E8BCA1AEBB024AC"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58D1454935F968D4"]
+			id: "304CF0AFFECEC826"
+			tasks: [{
+				id: "47C269AC064E08C0"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
 		}
 	]
 	title: "Invasion"
