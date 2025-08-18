@@ -8,36 +8,49 @@
 	id: "62201515934BDF18"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		can_repeat: true
-		dependencies: ["249253A49894C415"]
-		hide_until_deps_complete: true
-		id: "22C8F32354F44964"
-		rewards: [
-			{
-				id: "0DB9C4B3A14E5B33"
-				item: "candlelight:cooking_pot"
-				type: "item"
-			}
-			{
-				id: "672A2C6916F3CD9C"
-				item: {
-					Count: 1
-					id: "candlelight:cooking_pan"
-					tag: {
-						Damage: 0
-					}
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["79C7C90181B034A9"]
+			hide_until_deps_complete: true
+			id: "22C8F32354F44964"
+			rewards: [
+				{
+					id: "0DB9C4B3A14E5B33"
+					item: "candlelight:cooking_pot"
+					type: "item"
 				}
+				{
+					id: "672A2C6916F3CD9C"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3CF75BF3F80527"
+				item: "minecraft:copper_block"
 				type: "item"
-			}
-		]
-		tasks: [{
-			id: "3A3CF75BF3F80527"
-			item: "minecraft:copper_block"
-			type: "item"
-		}]
-		x: -5.0d
-		y: 0.0d
-	}]
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["249253A49894C415"]
+			id: "79C7C90181B034A9"
+			tasks: [{
+				id: "3DBD08029AC5CD0C"
+				title: "Gastromagie"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+	]
 	title: "Gastromagie"
 }

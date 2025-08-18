@@ -8,6 +8,54 @@
 	id: "15CF4836DBB1E588"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["13D26EBAB5DE6F4C"]
+			id: "112BD2984A0CDAE4"
+			tasks: [{
+				id: "546072F5128B7BFD"
+				title: "Technocuisine"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112BD2984A0CDAE4"]
+			id: "5CFA34B504244898"
+			rewards: [{
+				id: "778229A9E966FF9A"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45E601A9C71F96EB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6FBFD3725D0A1F92"
+					item: { Count: 3, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					id: "37E4DEDF8D9A125A"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "207F2CF42774781E"
+					item: { Count: 2, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 	title: "Technocuisine"
 }

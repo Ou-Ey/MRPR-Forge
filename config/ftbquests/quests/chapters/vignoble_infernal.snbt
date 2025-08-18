@@ -15,6 +15,87 @@
 	id: "180E0E8EDA9EB386"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["4FB951B1E3193101"]
+			id: "3B5CEC581BC49FDE"
+			rewards: [{
+				id: "42DD67D8C486FD21"
+				item: "nethervinery:crimson_fermentation_barrel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "4816C354CBB9458B"
+					item: { Count: 8, id: "minecraft:crimson_planks" }
+					type: "item"
+				}
+				{
+					id: "53A8DED5F01D4EF2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FB951B1E3193101"]
+			id: "26389FF21CE272F2"
+			rewards: [{
+				id: "7C9E62C339DFC849"
+				item: "nethervinery:warped_fermentation_barrel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "417135D5745A62CB"
+					item: { Count: 8, id: "minecraft:warped_planks" }
+					type: "item"
+				}
+				{
+					id: "29E05B0D6347FEF3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FB951B1E3193101"]
+			id: "7E9B0F33CC5D22A0"
+			rewards: [{
+				id: "1C9638EC6489BF56"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "188FE6098FEAC5E0"
+				item: { Count: 8, id: "minecraft:oak_planks" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7BFB3F619E1B43C5"]
+			id: "4FB951B1E3193101"
+			tasks: [{
+				id: "3725A7DF9D88AF87"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			title: "Vignoble infernal"
+			x: 1.0d
+			y: -6.0d
+		}
+	]
 	title: "Vignoble infernal"
 }

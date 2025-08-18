@@ -5,7 +5,7 @@
 	group: "42B2D05ABFB516BC"
 	icon: "graveyard:altar"
 	id: "36686CBBA778882F"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -46,6 +46,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["73EE74AFBF3AA3C9"]
 			id: "46C1E6113DABD896"
 			tasks: [
 				{
@@ -95,6 +96,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["12FF5C69B97B24B7"]
 			id: "4E466D9F96E2DC34"
 			tasks: [
 				{
@@ -131,6 +133,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["479F38DCCDD141D4"]
 			icon: "minecraft:villager_spawn_egg"
 			id: "12FF5C69B97B24B7"
 			tasks: [
@@ -163,6 +166,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4E466D9F96E2DC34"]
 			id: "73EE74AFBF3AA3C9"
 			tasks: [{
 				entity: "graveyard:lich"

@@ -1669,7 +1669,7 @@
 			]
 			tasks: [{
 				id: "4DDF5740EC37033A"
-				item: "minecraft:oak_wood"
+				item: "forge:logs/archwood"
 				type: "item"
 			}]
 			title: "Archwood logs"

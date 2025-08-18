@@ -11,7 +11,7 @@
 	quests: [
 		{
 			can_repeat: true
-			dependencies: ["3740AFF088204779"]
+			dependencies: ["1152FCAC318CF3D6"]
 			hide_until_deps_complete: true
 			id: "37DBD7C26BF1170D"
 			rewards: [
@@ -36,7 +36,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3740AFF088204779"]
+			dependencies: ["1152FCAC318CF3D6"]
 			hide_until_deps_complete: true
 			icon: "herbalbrews:copper_tea_kettle"
 			id: "247F7AD1606E3B62"
@@ -53,6 +53,17 @@
 			}]
 			x: 0.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3740AFF088204779"]
+			id: "1152FCAC318CF3D6"
+			tasks: [{
+				id: "50076B662C1C8954"
+				title: "Leaf juice"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
 		}
 	]
 	title: "\"Leaf juice\""

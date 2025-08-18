@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "twilight_forest"
 	group: "42B2D05ABFB516BC"
-	icon: "twilightforest:twilight_portal_miniature_structure"
+	icon: "twilightforest:dark_leaves"
 	id: "7732CF7AAA63DB3A"
-	order_index: 9
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -2269,6 +2269,96 @@
 			title: "Every Thorn has its Rose"
 			x: 10.5d
 			y: 5.5d
+		}
+		{
+			id: "533D5C0283EA4A02"
+			tasks: [{
+				id: "593770E7920647BD"
+				item: "twilightforest:music_disc_thread"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "2DAD0D2DA69D746D"
+			tasks: [{
+				id: "1B00ADD48D68E6C3"
+				item: "twilightforest:music_disc_findings"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "08C0942B660B1025"
+			tasks: [{
+				id: "64B356CC7EF13263"
+				item: "twilightforest:music_disc_radiance"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "3BC3D5171729E98D"
+			tasks: [{
+				id: "11FD2F778F8FFFB0"
+				item: "twilightforest:music_disc_steps"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "3B365406F4A3B27E"
+			tasks: [{
+				id: "0858F8FB96E0D69C"
+				item: "twilightforest:music_disc_motion"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "2B721E30E0D7D935"
+			tasks: [{
+				id: "2DBB6BC7D842BF2D"
+				item: "twilightforest:music_disc_wayfarer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "14200E8B03D25937"
+			tasks: [{
+				id: "3EBAB7465E839A08"
+				item: "twilightforest:music_disc_home"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "752CDBB3E29CABB1"
+			tasks: [{
+				id: "7D67A169E1589991"
+				item: "twilightforest:music_disc_maker"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "2A365367889984F8"
+			tasks: [{
+				id: "531041E6DA4183C8"
+				item: "twilightforest:music_disc_superstitious"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
 		}
 	]
 	title: "Twilight Forest"

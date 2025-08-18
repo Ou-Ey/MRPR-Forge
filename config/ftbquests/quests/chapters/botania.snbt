@@ -4,9 +4,15 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "5EACA90386932626"
-	icon: "botania:lexicon"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
 	id: "1883B79BDB2AAE5D"
-	order_index: 4
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -3961,6 +3967,26 @@
 			x: 24.5d
 			y: 1.0d
 		}
+		{
+			id: "7A83AEDBCAAC24D0"
+			tasks: [{
+				id: "0C99F93B7B318B1E"
+				item: "botania:record_gaia_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			id: "477C2EFD1CC84790"
+			tasks: [{
+				id: "454192B5189DB24C"
+				item: "botania:record_gaia_2"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
 	]
-	title: "Botania"
+	title: "Botaniste"
 }
