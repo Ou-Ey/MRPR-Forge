@@ -1,0 +1,535 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stockage"
+	group: "0F048EC623DBD932"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "46DB071139D845F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D272359992F2700"
+			tasks: [{
+				id: "5BA1F4F409758694"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "324D1EAFBF31B0C4"
+			tasks: [{
+				id: "1CDB92351555F83C"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "60146B91E2D8B781"
+			tasks: [{
+				id: "317FCBEAA18E7051"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "3BC8EDA30EE69889"
+			tasks: [{
+				id: "0E60ABC73CE0FE79"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "0512F7546595E6CB"
+			tasks: [{
+				id: "12AB10BAC819BEBF"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3F758CD0EB1AD89B"
+			tasks: [{
+				id: "6E9E792B22763C63"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "37CA0E6A6969E318"
+			tasks: [{
+				id: "095D3D0D37862D83"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "6664EB77159B5E49"
+			tasks: [{
+				id: "0DBD9535B1D20686"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "07F38BD04D6B6854"
+			tasks: [{
+				id: "5A9FE34D16B5FA12"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "227F8B37B1EFB37C"
+			tasks: [{
+				id: "6D8A2FE0B9C9F5C0"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "30269808164C3435"
+			tasks: [
+				{
+					id: "68D514C684CF46C6"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+					type: "item"
+				}
+				{
+					id: "37B7E1148C845F44"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "21FA8DF59C1619D9"
+					item: "sophisticatedbackpacks:advanced_refill_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "30EACA72ECBE0A23"
+			tasks: [{
+				id: "0230BAE36D8FBE51"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "50CDFCE4F8184E3E"
+			tasks: [{
+				id: "33FD243FD93AAF15"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "39E489D19F42A9EA"
+			tasks: [
+				{
+					id: "1D9EF7FC29BA5D10"
+					item: "sophisticatedbackpacks:auto_smelting_upgrade"
+					type: "item"
+				}
+				{
+					id: "2194942226ADF89D"
+					item: "sophisticatedbackpacks:auto_smoking_upgrade"
+					type: "item"
+				}
+				{
+					id: "72D7130FD8DF1C8E"
+					item: "sophisticatedbackpacks:auto_blasting_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "291DA14C09F1DEA8"
+			tasks: [{
+				id: "14ABF18C00D12645"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "40431E370F9E7A7E"
+			tasks: [{
+				id: "0DF9FCA539B90A9E"
+				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "266E23D8E48045E1"
+			tasks: [{
+				id: "2CD3A00E433C88A4"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "125287149FA5061C"
+			tasks: [{
+				id: "40C54FC10AE05CE8"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "7C1914E0CDB7C78C"
+			tasks: [{
+				id: "352C61D7E95158FD"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "65D83CEEAB49E385"
+			tasks: [{
+				id: "7AEBD67BC82443D0"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "0B9BF01AE5CE729C"
+			tasks: [{
+				id: "344825BD87F8A8B4"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "609AF031AFCBC035"
+			tasks: [{
+				id: "4D642890222B5852"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "4DE00257E60B4D01"
+			tasks: [{
+				id: "3F22DDE8E3BA17DE"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "7722408E43325F9C"
+			tasks: [{
+				id: "6695E049E93DB464"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "74C4B389143A23F9"
+			tasks: [{
+				id: "76C95B029FC290B1"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_2"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "12BBD2EDAF3EA51D"
+			tasks: [{
+				id: "7051A419111D7483"
+				item: "sophisticatedbackpacks:stack_downgrade_tier_3"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "1DFD6F9BDABED4E9"
+			tasks: [
+				{
+					id: "11FA3113CEBD164F"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "47BE13E32F36D15A"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "7976F308E4727A5B"
+			tasks: [
+				{
+					id: "55BA9B427C2AEA99"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "0FAB613E7A773F4D"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+				{
+					id: "2F0C1EE3A60C1CCB"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "342CB8626D0AE64C"
+			tasks: [{
+				id: "3311853AFE2353D3"
+				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "51B5A3D4016BDB90"
+			tasks: [{
+				id: "5230AEF6990BA66B"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "6BC08203057027C6"
+			tasks: [{
+				id: "1D5EA0E6FC74FE78"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "62446179BD75EA52"
+			tasks: [{
+				id: "458331BD08A6C836"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "6BA57570A77D7F2C"
+			tasks: [{
+				id: "40812897AE2264BA"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "57016D82C7157FB1"
+			tasks: [{
+				id: "278F54292D0E2D04"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "6342F0E57CCDE980"
+			tasks: [
+				{
+					id: "5536751A9051C4D2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "198432F50CA62634"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74908A12F70220D9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_3"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3237DCACC843145E"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_4"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "46D8B8F3EA337F49"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "5C699E2F06CB7D9A"
+			tasks: [{
+				id: "12D66BAF1E023C64"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "28315A3CD65377E1"
+			tasks: [{
+				id: "30D53B45676F3923"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "714DBD508A513013"
+			tasks: [
+				{
+					id: "78A33E6ECF46D916"
+					item: "sophisticatedstorage:storage_input"
+					type: "item"
+				}
+				{
+					id: "196E9B0C1F2DA6DA"
+					item: "sophisticatedstorage:storage_output"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "4A65643D7E8F9945"
+			tasks: [{
+				id: "037854F66305BFDB"
+				item: "sophisticatedstorage:storage_io"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "7535A0746B4399A3"
+			tasks: [
+				{
+					id: "7CD833B1ADCA51A0"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EE3588C140CEC72"
+					item: "sophisticatedstorage:paintbrush"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 5.5d
+		}
+	]
+	title: "Stockage"
+}

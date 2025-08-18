@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technocuisine"
+	group: "40DFEB5B801B226B"
+	hide_quest_until_deps_visible: true
+	icon: "brewery:beer_barley"
+	id: "15CF4836DBB1E588"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Technocuisine"
+}

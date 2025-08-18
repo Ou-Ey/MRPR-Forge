@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sucer"
+	group: "15994A6AB0C56085"
+	icon: "vampirism:vampire_fang"
+	id: "7FF738FD9775F683"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sucer"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plats_de_la_rgion"
+	group: "79D3FD2AA2D7C4EB"
+	icon: "minecraft:bread"
+	id: "766F1B2713EB6E89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Comme à la maison"
+}

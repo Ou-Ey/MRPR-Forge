@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gnie_en_rouge"
+	group: "148E4FA0168EF110"
+	icon: "projectred_core:pointer"
+	id: "4BED7601A1163FAC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Génie en... rouge ?"
+}

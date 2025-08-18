@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_graveyard"
+	group: "42B2D05ABFB516BC"
+	icon: "graveyard:altar"
+	id: "36686CBBA778882F"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02DE780A5E0DC9FF"
+			tasks: [{
+				id: "5B4DC57CB81EA53D"
+				item: "graveyard:incarnated_evil_music_disc"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "479F38DCCDD141D4"
+			tasks: [
+				{
+					id: "056A0AFFE98BFAC8"
+					item: "graveyard:corruption"
+					type: "item"
+				}
+				{
+					id: "259C331C045B840C"
+					item: "graveyard:dark_iron_ingot"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "6C7758D2BDAA6441"
+			tasks: [{
+				dimension: "graveyard:past"
+				id: "0A570BDA44DFFB2F"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "46C1E6113DABD896"
+			tasks: [
+				{
+					id: "0E8461CE94895247"
+					item: "graveyard:white_bone_staff"
+					type: "item"
+				}
+				{
+					id: "7A8094335A594019"
+					item: "graveyard:black_bone_staff"
+					type: "item"
+				}
+				{
+					id: "3005A224E88AD6B0"
+					item: "graveyard:red_bone_staff"
+					type: "item"
+				}
+				{
+					id: "1FDF761E437F8D3A"
+					item: "graveyard:cyan_bone_staff"
+					type: "item"
+				}
+				{
+					id: "6F033999043ACA72"
+					item: "graveyard:purple_bone_staff"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "744290E2D9C52BB6"
+			tasks: [
+				{
+					id: "4758E178AEF208F6"
+					item: "minecraft:bone_block"
+					type: "item"
+				}
+				{
+					id: "1FE3AD896CDE03C8"
+					item: "graveyard:ossuary"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "4E466D9F96E2DC34"
+			tasks: [
+				{
+					id: "0F89D66097DC0D2E"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "74ECF5C606B24C62"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "2DC457B631609748"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+				{
+					id: "57CB65B96A15C14A"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "73E24AAB9C724834"
+					structure: "graveyard:lich_prison"
+					type: "structure"
+				}
+			]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:villager_spawn_egg"
+			id: "12FF5C69B97B24B7"
+			tasks: [
+				{
+					icon: "minecraft:villager_spawn_egg"
+					id: "3E9A0BF037EF5118"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+				{
+					id: "7B5EA18D9BE8AE18"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "186FD4CD49EF3975"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "73EE74AFBF3AA3C9"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:altar"
+				id: "2CF9CAA0DECA1BBB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+	]
+	title: "The graveyard"
+}

@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vignoble_infernal"
+	group: "40DFEB5B801B226B"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "vinery:red_wine"
+		tag: {
+			EffectAmplifier: 0
+			EffectDuration: 1800
+		}
+	}
+	id: "180E0E8EDA9EB386"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Vignoble infernal"
+}

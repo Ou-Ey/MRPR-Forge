@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bain_de_sang"
+	group: "15994A6AB0C56085"
+	icon: "bloodmagic:life_essence_bucket"
+	id: "1D8C5EB80F49A2C4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bain de sang"
+}

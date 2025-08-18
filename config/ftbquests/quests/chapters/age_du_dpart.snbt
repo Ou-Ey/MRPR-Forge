@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_du_dpart"
+	group: "1B2D1E55083E88EB"
+	icon: "minecraft:end_portal_frame"
+	id: "75F0AF0F854E8ED4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Grand périple"
+}

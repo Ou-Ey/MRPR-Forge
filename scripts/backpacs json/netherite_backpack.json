@@ -1,0 +1,37 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:netherite_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:diamond_backpack"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "G": {
+      "item": "minecraft:dragon_egg"
+    },
+    "T": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:supplementaries:enderman_head"
+    }
+  },
+  "pattern": [
+    "SES",
+    "GBT",
+    "NNN"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  }
+}

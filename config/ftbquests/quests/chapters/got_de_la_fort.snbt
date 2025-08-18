@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "got_de_la_fort"
+	group: "40DFEB5B801B226B"
+	hide_quest_until_deps_visible: true
+	icon: "herbalbrews:copper_tea_kettle"
+	id: "34752BE6A31FC4D6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["3740AFF088204779"]
+			hide_until_deps_complete: true
+			id: "37DBD7C26BF1170D"
+			rewards: [
+				{
+					id: "37473DADBA08AF7D"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+				{
+					id: "0C1649A9D4FE30BB"
+					item: "herbalbrews:cauldron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44582790C3ADAA92"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3740AFF088204779"]
+			hide_until_deps_complete: true
+			icon: "herbalbrews:copper_tea_kettle"
+			id: "247F7AD1606E3B62"
+			rewards: [{
+				id: "28A7BB16ACCDFB66"
+				item: "herbalbrews:copper_tea_kettle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3328016B168A8A44"
+				item: { Count: 4, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	title: "\"Leaf juice\""
+}

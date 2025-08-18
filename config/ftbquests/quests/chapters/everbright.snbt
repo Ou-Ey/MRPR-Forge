@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everbright"
+	group: "42B2D05ABFB516BC"
+	icon: "blue_skies:mossy_turquoise_cobblestone"
+	id: "7A9D6B6D98AB7206"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "blue_skies:everbright_portal"
+			id: "4D5CD1D85A57D806"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "33EA0BBDA0CC8309"
+				type: "dimension"
+			}]
+			title: "Everbright"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon: "blue_skies:everdawn_portal"
+			id: "2F65608BBE0F4029"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "2832994AA8293729"
+				type: "dimension"
+			}]
+			title: "Everdawn"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "Blue Skyes"
+}

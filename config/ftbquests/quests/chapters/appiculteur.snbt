@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "appiculteur"
+	group: "5EACA90386932626"
+	icon: "minecraft:bee_nest"
+	id: "28F2A333CC2AFF41"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Apiculteur"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gnie_logiciel"
+	group: "148E4FA0168EF110"
+	id: "5A081333C9CCEEE5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Génie logiciel"
+}

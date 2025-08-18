@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cuisine_trop_exotique"
+	group: "79D3FD2AA2D7C4EB"
+	icon: "minecraft:ender_pearl"
+	id: "239B66D8968E65C5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Cuisine trop exotique"
+}

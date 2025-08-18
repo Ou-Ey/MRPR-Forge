@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "0F048EC623DBD932", title: "Progression" }
+		{ id: "40DFEB5B801B226B", title: "Spécialités locales" }
+		{ id: "79D3FD2AA2D7C4EB", title: "Tourisme culinaire" }
+		{ id: "42B2D05ABFB516BC", title: "Entre deux mondes" }
+		{ id: "1B2D1E55083E88EB", title: "Origine des Arcanes" }
+		{ id: "5EACA90386932626", title: "Origine des Forêts" }
+		{ id: "15994A6AB0C56085", title: "Origine des Flammes" }
+		{ id: "27F21293E8E29021", title: "Origine des Océans" }
+		{ id: "148E4FA0168EF110", title: "Origine des NFTs" }
+	]
+}

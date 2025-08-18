@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spcialits_ctires"
+	group: "40DFEB5B801B226B"
+	hide_quest_until_deps_visible: true
+	icon: "beachparty:honey_cocktail"
+	id: "3704A92955C081A3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Spécialités côtières"
+}

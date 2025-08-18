@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gnie_lectrique"
+	group: "148E4FA0168EF110"
+	icon: "immersiveengineering:light_bulb"
+	id: "7508D61CCE08E67F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Génie électrique"
+}

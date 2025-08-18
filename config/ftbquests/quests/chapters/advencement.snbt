@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advencement"
+	group: "0F048EC623DBD932"
+	icon: "minecraft:wheat"
+	id: "0F8B172C3162A73A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "359672F0A91B6C02"
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				id: "4BC4E8F24CA566B0"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "185C3CDF6E44132D"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "4B729CDF0D264C25"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "4531FEB002666D51"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				id: "429699345D714F28"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "5215977A0C958EFA"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "09DAE1850AFC10B7"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+	title: "Advencements"
+}

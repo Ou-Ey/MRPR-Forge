@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gastromagie"
+	group: "40DFEB5B801B226B"
+	hide_quest_until_deps_visible: true
+	icon: "candlelight:cooking_pot"
+	id: "62201515934BDF18"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		dependencies: ["249253A49894C415"]
+		hide_until_deps_complete: true
+		id: "22C8F32354F44964"
+		rewards: [
+			{
+				id: "0DB9C4B3A14E5B33"
+				item: "candlelight:cooking_pot"
+				type: "item"
+			}
+			{
+				id: "672A2C6916F3CD9C"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "3A3CF75BF3F80527"
+			item: "minecraft:copper_block"
+			type: "item"
+		}]
+		x: -5.0d
+		y: 0.0d
+	}]
+	title: "Gastromagie"
+}

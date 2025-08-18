@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_des_braises"
+	group: "15994A6AB0C56085"
+	icon: "minecraft:obsidian"
+	id: "5A6D08963C8CBE74"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71B400F8222B5092"]
+			id: "5DC4C72DD5D44F7C"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "1A9990B0D4537C15"
+				title: "Invasion réussie"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "71B400F8222B5092"
+			tasks: [
+				{
+					count: 10L
+					id: "34F712185ECA27B6"
+					item: { Count: 10, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "16730CC348BC24D4"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			title: "Prêt à conquérir"
+			x: -6.0d
+			y: -1.0d
+		}
+	]
+	title: "Invasion"
+}

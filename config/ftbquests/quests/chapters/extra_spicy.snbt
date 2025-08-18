@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extra_spicy"
+	group: "79D3FD2AA2D7C4EB"
+	icon: "minecraft:blaze_powder"
+	id: "3AC6F0CC6279AA77"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Extra spicy"
+}

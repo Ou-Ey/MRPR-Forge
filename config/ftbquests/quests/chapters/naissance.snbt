@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "naissance"
+	group: "0F048EC623DBD932"
+	icon: "origins:orb_of_origin"
+	id: "46A36C52A2FB2016"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			id: "53DEE45D6163BD45"
+			max_completable_dependents: 1
+			tasks: [{
+				id: "77B29C135C994107"
+				title: "J'ai lu les règles"
+				type: "checkmark"
+			}]
+			title: "Règles"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53DEE45D6163BD45"]
+			icon: "bloodmagic:reagentbinding"
+			id: "7BFB3F619E1B43C5"
+			tasks: [{
+				id: "71E8B354D2D9281F"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Chötgörüüd"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53DEE45D6163BD45"]
+			icon: "botania:terrasteel_ingot"
+			id: "3740AFF088204779"
+			tasks: [{
+				id: "2DF1D2145E471CC6"
+				title: "Botanix"
+				type: "checkmark"
+			}]
+			title: "Botanix"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53DEE45D6163BD45"]
+			icon: "aquamirae:rune_of_the_storm"
+			id: "45D45064C9488B13"
+			tasks: [{
+				id: "4BAB3B8BA770F504"
+				title: "Gblbllbbloops"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53DEE45D6163BD45"]
+			icon: "immersiveengineering:plate_steel"
+			id: "13D26EBAB5DE6F4C"
+			tasks: [{
+				id: "3699CBAF02F1368C"
+				title: "Cryptobros"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53DEE45D6163BD45"]
+			icon: "ars_nouveau:source_gem"
+			id: "249253A49894C415"
+			tasks: [{
+				id: "455361733EB0CC46"
+				title: "Arcanum"
+				type: "checkmark"
+			}]
+			title: "Arcanum"
+			x: 3.0d
+			y: -2.5d
+		}
+	]
+	title: "Renaissance"
+}
