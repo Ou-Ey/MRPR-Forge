@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "gnie_des_matriaux"
 	group: "148E4FA0168EF110"
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "tconstruct:pig_iron_block"
+		}
+	}
 	id: "4D5C2AC1B54FD468"
 	order_index: 3
 	quest_links: [ ]

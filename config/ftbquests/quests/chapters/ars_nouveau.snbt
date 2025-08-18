@@ -5,7 +5,7 @@
 	group: "1B2D1E55083E88EB"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

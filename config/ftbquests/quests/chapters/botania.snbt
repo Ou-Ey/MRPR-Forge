@@ -1435,24 +1435,8 @@
 			}]
 			size: 0.5d
 			tasks: [{
-				id: "490EAAA3703A576F"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:black_lotus"
-							}
-							{
-								Count: 1b
-								id: "botania:blacker_lotus"
-							}
-						]
-					}
-				}
-				title: "Black Lotus"
+				id: "3A994C3E1B72ABC9"
+				item: "botania:black_lotus"
 				type: "item"
 			}]
 			title: "The Elusive Mana-infused Lotus"
@@ -2128,35 +2112,6 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			id: "260D87459E6C357E"
-			rewards: [
-				{
-					id: "456A2F3302EE2517"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "20BA5835D41A9B75"
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "20888C5A49E67F6B"
-				item: {
-					Count: 1b
-					id: "aiotbotania:terra_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 15.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["23A2865FBE7831AB"]
 			description: [
 				"It's not just a pickaxe, the &9Terra Shatterer&r also acts just like a Mana Tablet when tossed into a Mana Pool and can store a ton of mana. However, you will not be able to release the absorbed mana from the Shatterer. "
 				""
@@ -2194,35 +2149,6 @@
 			}]
 			x: 17.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["23A2865FBE7831AB"]
-			id: "60874B452208CBD3"
-			rewards: [
-				{
-					id: "6A8B62E75F0EC8C2"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1B43E43D22013207"
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "10D85459C1342715"
-				item: {
-					Count: 1b
-					id: "aiotbotania:terra_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]

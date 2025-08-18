@@ -5,7 +5,7 @@
 	group: "148E4FA0168EF110"
 	icon: "create:large_cogwheel"
 	id: "100C477F4E63F20A"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -826,5 +826,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Create"
+	title: "Génie mécanique"
 }

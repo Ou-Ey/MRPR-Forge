@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "gnie_logiciel"
 	group: "148E4FA0168EF110"
+	icon: "computercraft:turtle_advanced"
 	id: "5A081333C9CCEEE5"
 	order_index: 4
 	quest_links: [ ]
