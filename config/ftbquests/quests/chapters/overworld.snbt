@@ -38,25 +38,6 @@
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
-			id: "6A12B1FE7B703F9D"
-			rewards: [{
-				id: "1C1C43B99CC8E4E3"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "When equipped, press &bB&r for easy access"
-			tasks: [{
-				id: "44740305C2A8DC52"
-				item: "backpacked:backpack"
-				title: "Craft a Backpack"
-				type: "item"
-			}]
-			title: "Craft a &2Backpack"
-			x: 15.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "3DAB175493B08089"
 			rewards: [{
 				id: "29B13597289089F3"
@@ -153,7 +134,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3740AFF088204779"]
 			id: "2574E7CF699D5B45"
 			size: 1.5d
 			subtitle: "Breaking a log with an axe will destroy the entire tree attached. Sneaking while destroying a log will prevent this."

@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["45D45064C9488B13"]
 			icon: "aether:aether_portal_frame"
 			id: "32226ED25E813908"
 			rewards: [{

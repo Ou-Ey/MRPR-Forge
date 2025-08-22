@@ -4,6 +4,7 @@ craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
+
 craftingTable.addShaped("new_copper_backpack", <item:sophisticatedbackpacks:copper_backpack>, [
     [<item:minecraft:string>, <item:minecraft:diamond>, <item:minecraft:string>],
     [<item:minecraft:honeycomb>, <item:sophisticatedbackpacks:backpack>, <item:minecraft:honeycomb>],

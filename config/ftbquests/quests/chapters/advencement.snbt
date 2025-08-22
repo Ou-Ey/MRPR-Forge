@@ -52,6 +52,53 @@
 			x: -0.5d
 			y: 1.0d
 		}
+		{
+			id: "6EFA8B7326462F3E"
+			tasks: [{
+				advancement: "minecraft:adventure/arbalistic"
+				criterion: ""
+				id: "6115C42175336715"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "568C057D5C337DC9"
+			tasks: [
+				{
+					advancement: "minecraft:adventure/spyglass_at_dragon"
+					criterion: ""
+					id: "0045BFD4F0148699"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/spyglass_at_ghast"
+					criterion: ""
+					id: "0A4E75C631559065"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/spyglass_at_parrot"
+					criterion: ""
+					id: "311E2CFFF01B9A00"
+					type: "advancement"
+				}
+			]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "29CE8E0847BE6FAA"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "549420E1435D061B"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
 	]
 	title: "Advencements"
 }

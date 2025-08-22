@@ -168,6 +168,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "18663B3EF4AF1BA4"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08F2508E7C01A00E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 0.0d
