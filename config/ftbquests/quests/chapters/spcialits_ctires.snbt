@@ -365,18 +365,6 @@
 			x: 0.0d
 			y: 1.0d
 		}
-		{
-			id: "36DD2A8D57944990"
-			tasks: [{
-				id: "0B5B6C970C790B13"
-				observe_type: 6
-				timer: 0L
-				to_observe: "minecarft:villager: {VillagerData: {profession: \"beachparty:sandymerchant\"}}"
-				type: "observation"
-			}]
-			x: -8.0d
-			y: -2.5d
-		}
 	]
 	title: "Spécialités côtières"
 }

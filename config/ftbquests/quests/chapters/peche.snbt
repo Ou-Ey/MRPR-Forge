@@ -94,8 +94,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34DF8844EECA55E0"]

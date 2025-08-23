@@ -13,14 +13,6 @@
 	id: "26E6ED94168A05C4"
 	images: [
 		{
-			height: 5.0d
-			image: "atm:textures/questpics/bees/productive_bees.png"
-			rotation: 0.0d
-			width: 20.0d
-			x: 1.0d
-			y: -10.0d
-		}
-		{
 			height: 2.0d
 			image: "minecraft:textures/item/honeycomb.png"
 			rotation: 0.0d
@@ -670,50 +662,9 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: ["Tin Bees are made by breeding a Crystalline Bee with an Ashy Mining Bee."]
-			hide_dependency_lines: true
-			icon: "alltheores:tin_ingot"
-			id: "589EB4602E3F9EEE"
-			rewards: [{
-				id: "7FA16F264547ECF7"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Ashy Mining + Crystalline"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:tin"
-						}
-					}
-				}
-				id: "17C7DC04BC22C0D7"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:tin"
-							}
-						}
-					}
-				}
-				title: "Tin Comb"
-				type: "item"
-			}]
-			title: "Tin Bees"
-			x: 3.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
 			description: [""]
 			hide_dependency_lines: true
-			icon: "alltheores:aluminum_ingot"
+			icon: "immersiveengineering:ingot_aluminum"
 			id: "0D5D76B3551CD5A7"
 			rewards: [{
 				id: "1E87DDE8F03C8AA8"
@@ -1443,7 +1394,7 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
-			icon: "croptopia:chocolate"
+			icon: "minecraft:cocoa_beans"
 			id: "486060882E507CF1"
 			rewards: [{
 				id: "6C008390E836F306"
@@ -1452,9 +1403,17 @@
 			}]
 			subtitle: "Spawns from a Dirt Nest"
 			tasks: [{
-				id: "4DFDEAD81868CEF4"
-				title: "Chocolate Mining Bee"
-				type: "checkmark"
+				id: "0ABC02524132BAB0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chocolate"
+						}
+					}
+				}
+				type: "item"
 			}]
 			title: "Chocolate Mining Bee"
 			x: -5.0d
@@ -1822,7 +1781,7 @@
 			dependencies: ["17419401147B5C02"]
 			description: [""]
 			hide_dependency_lines: true
-			icon: "alltheores:zinc_ingot"
+			icon: "create:zinc_ingot"
 			id: "7EAFF64FFE8B5378"
 			rewards: [{
 				id: "4537E0AF362216D5"
@@ -1862,7 +1821,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:electrum_ingot"
+			icon: "immersiveengineering:ingot_electrum"
 			id: "3054D016D2EF25FF"
 			rewards: [{
 				id: "6FA6170C19493AB7"
@@ -1902,47 +1861,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:platinum_ingot"
-			id: "57ACD83205988834"
-			rewards: [{
-				id: "0C66CBCE5AF692A1"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Gold + Ender"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:platinum"
-						}
-					}
-				}
-				id: "726FF2C87E9E972F"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:platinum"
-							}
-						}
-					}
-				}
-				title: "Platinum Comb"
-				type: "item"
-			}]
-			title: "Platinum Bees"
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:lead_ingot"
+			icon: "immersiveengineering:ingot_lead"
 			id: "2DFFEB29B6CBFD99"
 			rewards: [{
 				id: "31ED03CD02AD0E62"
@@ -2023,7 +1942,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:brass_ingot"
+			icon: "create:brass_ingot"
 			id: "5DF26D712B643655"
 			rewards: [{
 				id: "024DA8780F619DC0"
@@ -2254,46 +2173,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:bronze_ingot"
-			id: "6E4C3B87FABE9EFA"
-			rewards: [{
-				id: "50DDB12B5BB338D2"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Copper + Tin"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:bronze"
-						}
-					}
-				}
-				id: "55F718D796CEB1B1"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:bronze"
-							}
-						}
-					}
-				}
-				title: "Bronze Comb"
-				type: "item"
-			}]
-			title: "Bronze Bees"
-			x: 2.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:coal"
 			id: "71667FFC8011525C"
 			rewards: [{
@@ -2335,7 +2214,7 @@
 			dependencies: ["17419401147B5C02"]
 			description: [""]
 			hide_dependency_lines: true
-			icon: "alltheores:constantan_ingot"
+			icon: "immersiveengineering:ingot_constantan"
 			id: "52B22C07818981D0"
 			rewards: [{
 				id: "3EECD8A6FAE44C39"
@@ -2415,46 +2294,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:enderium_ingot"
-			id: "0D97CDE92F3B1A83"
-			rewards: [{
-				id: "7F7B0C8A87197491"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Lead + Diamond/Platinum"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:enderium"
-						}
-					}
-				}
-				id: "208145EA6533CDDB"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:enderium"
-							}
-						}
-					}
-				}
-				title: "Enderium Comb"
-				type: "item"
-			}]
-			title: "Enderium Bee"
-			x: -1.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:experience_bottle"
 			id: "0FB1FC640471363A"
 			rewards: [{
@@ -2521,86 +2360,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "tombstone:grave_dust"
-			id: "4351DAA8B607BCBB"
-			rewards: [{
-				id: "3E53E43ACB7E4CB8"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Ghostly + Skeletal/Zombee"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:grave"
-						}
-					}
-				}
-				id: "6D15CFE8E1CF6D25"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:grave"
-							}
-						}
-					}
-				}
-				title: "Grave's Comb"
-				type: "item"
-			}]
-			title: "Grave's Bee"
-			x: 0.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:invar_ingot"
-			id: "734A72A4C898BDFB"
-			rewards: [{
-				id: "624B0D86B65B6DF9"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Iron + Nickel"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:invar"
-						}
-					}
-				}
-				id: "0C0D6A9D01FED776"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:invar"
-							}
-						}
-					}
-				}
-				title: "Invar Comb"
-				type: "item"
-			}]
-			title: "Invar Bee"
-			x: -1.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:oak_log"
 			id: "37045B986619A03D"
 			rewards: [{
@@ -2627,87 +2386,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:lumium_ingot"
-			id: "150FB369BEFFCBBF"
-			rewards: [{
-				id: "76A118868DEFF156"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Silver + Tin"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:lumium"
-						}
-					}
-				}
-				id: "4DA6445DB5F3B85E"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:lumium"
-							}
-						}
-					}
-				}
-				title: "Lumium Comb"
-				type: "item"
-			}]
-			title: "Lumium Bee"
-			x: 3.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "integrateddynamics:crystalized_menril_chunk"
-			id: "7B40A9DAA119DE59"
-			rewards: [{
-				id: "1FD5CBE1FB0136F8"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Crystalline + Neon Cuckoo"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:menril"
-						}
-					}
-				}
-				id: "22F5DD43B8A7C452"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:menril"
-							}
-						}
-					}
-				}
-				title: "Menril Comb"
-				type: "item"
-			}]
-			title: "Menril Bee"
-			x: 3.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:nickel_ingot"
+			icon: "immersiveengineering:ingot_nickel"
 			id: "4FE7F45C72EF5DC1"
 			rewards: [{
 				id: "1822D65E1764B5C3"
@@ -2787,46 +2466,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:osmium_ingot"
-			id: "67482ED4B18F828D"
-			rewards: [{
-				id: "30C7803BBB6B7F56"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Iron + Neon Cuckoo"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:osmium"
-						}
-					}
-				}
-				id: "4471A530B55D4140"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:osmium"
-							}
-						}
-					}
-				}
-				title: "Osmium Comb"
-				type: "item"
-			}]
-			title: "Osmium Bee"
-			x: 3.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:stone"
 			id: "6E093D16B12E12B3"
 			rewards: [{
@@ -2860,7 +2499,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:uranium_ingot"
+			icon: "immersiveengineering:ingot_uranium"
 			id: "734F61A03FFA13ED"
 			rewards: [{
 				id: "0E772C4611E7B761"
@@ -2920,126 +2559,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "mekanism:ingot_refined_glowstone"
-			id: "15FCC8DA717BE348"
-			rewards: [{
-				id: "4AD432198ECFE2D9"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Osmium + Glowing"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:refined_glowstone"
-						}
-					}
-				}
-				id: "636EAE7DCFA8D007"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:refined_glowstone"
-							}
-						}
-					}
-				}
-				title: "Refined Glowstone Comb"
-				type: "item"
-			}]
-			title: "Refined Glowstone Bee"
-			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mekanism:ingot_refined_obsidian"
-			id: "229B12FD9C537D9B"
-			rewards: [{
-				id: "49A9C8E6C948F13E"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Osmium + Obsidian"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:refined_obsidian"
-						}
-					}
-				}
-				id: "4AF72F021060F09C"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:refined_obsidian"
-							}
-						}
-					}
-				}
-				title: "Refined Obsidian Comb"
-				type: "item"
-			}]
-			title: "Refined Obsidian Bee"
-			x: 1.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:signalum_ingot"
-			id: "6F7AC41B703028CC"
-			rewards: [{
-				id: "24B5AA1306FA8DAA"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Silver + Copper"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:signalum"
-						}
-					}
-				}
-				id: "5B5DBA0A7644A551"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:signalum"
-							}
-						}
-					}
-				}
-				title: "Signalum Comb"
-				type: "item"
-			}]
-			title: "Signalum Bee"
-			x: 3.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:string"
 			id: "5CF2A069A3CC4EF6"
 			rewards: [{
@@ -3080,7 +2599,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:silver_ingot"
+			icon: "immersiveengineering:ingot_silver"
 			id: "09223F02621781BF"
 			rewards: [{
 				id: "7DA4E88B8BB15693"
@@ -3120,7 +2639,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:steel_ingot"
+			icon: "immersiveengineering:ingot_steel"
 			id: "02F3133A9006BC1E"
 			rewards: [{
 				id: "0FC5BC7A7E459E87"
@@ -3154,8 +2673,8 @@
 				type: "item"
 			}]
 			title: "Steel Bee"
-			x: 2.0d
-			y: 15.0d
+			x: 1.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -3268,11 +2787,6 @@
 				xp: 10
 			}]
 			subtitle: "Spawned using a Gravel or Stone Nest"
-			tasks: [{
-				id: "6E0961A56194F0A8"
-				title: "Digger Bees"
-				type: "checkmark"
-			}]
 			title: "Digger Bee"
 			x: -3.0d
 			y: 11.5d
@@ -3952,13 +3466,6 @@
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			description: [
-				"If you want the ATM bees, it takes a lot of capturing and breeding and feeding. "
-				""
-				"The following part of the questline outlines which bees you'll need to move forward."
-				""
-				"Make sure to check JEI and the &9Big Book of Bees&r for more info!"
-			]
 			icon: "allthemodium:allthemodium_ore"
 			id: "4C0302FF4F63B52E"
 			rewards: [{
@@ -3967,8 +3474,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "6754D9E162472CA1"
-				title: "Allthemodium Progression"
+				id: "7E468CC38B057EE8"
+				title: "Bouton"
 				type: "checkmark"
 			}]
 			x: 4.0d
