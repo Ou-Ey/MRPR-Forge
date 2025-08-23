@@ -2,3 +2,12 @@
 /resourcepacks
 minecraftinstance.json
 .curseclient
+/data
+/defaultconfigs
+/journeymap
+/kubejs
+/local
+/logs
+options.txt
+patchouli_data.json
+rhino.local.properties
