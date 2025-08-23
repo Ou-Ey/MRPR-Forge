@@ -17,8 +17,8 @@
 				title: "Technocuisine"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -53,8 +53,342 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["112BD2984A0CDAE4"]
+			id: "0DFD9D662552A8A0"
+			tasks: [
+				{
+					id: "57224770257637A3"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7183908A3D4FA5B9"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_regalia"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB5245FC397D6A7"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_trousers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A5502A7B03D5A83"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["112BD2984A0CDAE4"]
+			id: "61A386D6FC8D1CD8"
+			tasks: [
+				{
+					id: "742971E99A873D8B"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B23B8AE5181092D"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_dress"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C176B9C25989BE7"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_blouse"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F7AE3103E64EE8"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5A033AEF1E77630E"
+				"5AA03E9CEF9C650A"
+			]
+			id: "71A86ACC5C074C8B"
+			tasks: [{
+				id: "2608F15D38F96B7B"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5A033AEF1E77630E"
+				"7A4159C6CF979332"
+			]
+			id: "7B65F0508EE22E59"
+			tasks: [{
+				id: "1B2F213FD3EEB593"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A033AEF1E77630E"]
+			id: "755CAF0CDE5F617A"
+			tasks: [{
+				id: "669C16B16CA10FF0"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A033AEF1E77630E"]
+			id: "5367216C232EBC84"
+			tasks: [{
+				id: "6813BEBF5B64CCB7"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "5A033AEF1E77630E"
+			tasks: [{
+				id: "31113B2C0E89CC28"
+				item: "brewery:hops"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "698EC523012AD793"
+			tasks: [{
+				id: "5C8FD1F285591A55"
+				item: "brewery:barley"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "4A739F3111BB4E6E"
+			tasks: [{
+				id: "2B6E279F4D47B5A4"
+				item: "brewery:corn"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7B9293EA38B99ED7"
+				"7E2EE286AC262C4F"
+			]
+			id: "5AA03E9CEF9C650A"
+			tasks: [{
+				id: "09014694BDD097D6"
+				item: "brewery:dried_wheat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"698EC523012AD793"
+				"7E2EE286AC262C4F"
+			]
+			id: "7A4159C6CF979332"
+			tasks: [{
+				id: "1B36B47C6412A958"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A739F3111BB4E6E"
+				"7E2EE286AC262C4F"
+			]
+			id: "21EF50069657035D"
+			tasks: [{
+				id: "0834FCEFE02C6E57"
+				item: "brewery:dried_corn"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			id: "7B9293EA38B99ED7"
+			tasks: [{
+				id: "334D2B803E459790"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["112BD2984A0CDAE4"]
+			id: "44B5959D397306BC"
+			shape: "hexagon"
+			tasks: [{
+				id: "46C85C61D9A0238C"
+				item: {
+					Count: 1
+					id: "brewery:breathalyzer"
+					tag: {
+						brewery.drunkenness: "DANGER"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["112BD2984A0CDAE4"]
+			hide_dependent_lines: true
+			id: "7E2EE286AC262C4F"
+			rewards: [{
+				id: "1C0B82492D585F89"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "74CE2BD76660D79A"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21EF50069657035D"]
+			id: "5B64CFA413EB3372"
+			tasks: [{
+				id: "45E691F208779499"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5AA03E9CEF9C650A"]
+			id: "1E056B958C198B3B"
+			tasks: [{
+				id: "2DFFA4F616B7AD15"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A4159C6CF979332"]
+			id: "2FBF5DF9DA68F4B1"
+			tasks: [{
+				id: "32028EB968471096"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7A4159C6CF979332"
+				"5AA03E9CEF9C650A"
+			]
+			id: "73A9293F3CA1F237"
+			tasks: [{
+				id: "1BD947223BC14CF1"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7A4159C6CF979332"
+				"21EF50069657035D"
+			]
+			id: "6D76127B29C556F9"
+			tasks: [{
+				id: "705A124E15BEA4F1"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 	title: "Technocuisine"

@@ -260,6 +260,7 @@
 		}
 		{
 			dependencies: ["7E9B0F33CC5D22A0"]
+			hide_dependent_lines: true
 			id: "13D93B3A362DF64D"
 			tasks: [{
 				id: "32ACAD344FD7C4EB"

@@ -38,6 +38,345 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			id: "4EB6D38E5FD0565A"
+			tasks: [{
+				id: "7D131D302D26B34B"
+				item: {
+					Count: 1
+					id: "beachparty:beach_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "520B51178D5E4D5D"
+			tasks: [{
+				id: "2DA22114F62E6404"
+				item: {
+					Count: 1
+					id: "beachparty:sunglasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "5A379B31752AB14B"
+			tasks: [{
+				id: "08DDC43EDE6D5B82"
+				item: {
+					Count: 1
+					id: "beachparty:trunks"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "05B7A5D03378F338"
+			tasks: [{
+				id: "77C95F0C8983414E"
+				item: {
+					Count: 1
+					id: "beachparty:bikini"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "49A249A77FB45C70"
+			tasks: [{
+				id: "07642F36D364DA15"
+				item: {
+					Count: 1
+					id: "beachparty:crocs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "2048FDA1754E5B55"
+			tasks: [{
+				id: "2E481B090FC580CD"
+				item: {
+					Count: 1
+					id: "beachparty:swim_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "30700A29EC61CBDF"
+			tasks: [{
+				id: "448C52398F2B7A65"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "08FE09DA50472666"
+			tasks: [{
+				id: "028EC1ED5D490B70"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_pink"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "35D691099E7CEEE1"
+			tasks: [{
+				id: "0734605535C8C4DA"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_stripped"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "567529A7C3564B74"
+			tasks: [{
+				id: "6CF743A6F9927B04"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_axolotl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "4CB9C0DAEF76BE4E"
+			tasks: [{
+				id: "59CA2E790E6DA070"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_pelican"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "03471F995F89F562"
+			tasks: [{
+				id: "057BAA526C27D8BA"
+				item: {
+					Count: 1
+					id: "beachparty:pool_noodle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2780DE49A31323F7"]
+			id: "5D2B0916DC867B9E"
+			tasks: [{
+				id: "49B40C86711885C8"
+				item: "beachparty:coconut"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D2B0916DC867B9E"]
+			id: "3C585423A477AA9D"
+			tasks: [{
+				id: "0B73E608297C23FC"
+				item: "beachparty:coconut_open"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3C585423A477AA9D"
+				"0DD23EBDB19F1A01"
+			]
+			id: "681872764E56138A"
+			tasks: [{
+				id: "67152091335B73D9"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "17D9E3995E33E642"
+			tasks: [{
+				id: "6E8CB9FF8CDB5283"
+				item: "beachparty:sweetberries_cocktail"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "3BD42080BE3A2099"
+			tasks: [{
+				id: "063DC9D7C7C8E20C"
+				item: "beachparty:cocoa_cocktail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "198835FDDE85BD2A"
+			tasks: [{
+				id: "60B844AA89813984"
+				item: "beachparty:pumpkin_cocktail"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "6510F50339BA7D21"
+			tasks: [{
+				id: "3AB1612F4912E4E1"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "4D13B17BF9363EC1"
+			tasks: [{
+				id: "510AF96957DB7881"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DD23EBDB19F1A01"]
+			id: "456F3694987FFA86"
+			tasks: [{
+				id: "22B48D1FF49D6A8D"
+				item: "beachparty:honey_cocktail"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09FDC71A1C5317F4"]
+			id: "50D9702494166BCA"
+			tasks: [{
+				id: "1B85B1C1B7925A67"
+				item: "beachparty:raw_mussel_meat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50D9702494166BCA"]
+			id: "0352B1778CC3CBE9"
+			tasks: [{
+				id: "3AA9AA342EEAAA01"
+				item: "beachparty:cooked_mussel_meat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2780DE49A31323F7"]
+			id: "09FDC71A1C5317F4"
+			tasks: [{
+				id: "7B3FCE221B8059FD"
+				item: "beachparty:seashell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "36DD2A8D57944990"
+			tasks: [{
+				id: "0B5B6C970C790B13"
+				observe_type: 6
+				timer: 0L
+				to_observe: "minecarft:villager: {VillagerData: {profession: \"beachparty:sandymerchant\"}}"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
 	]
 	title: "Spécialités côtières"
 }

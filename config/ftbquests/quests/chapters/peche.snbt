@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "peche"
+	group: "27F21293E8E29021"
+	icon: {
+		Count: 1
+		id: "aquaculture:neptunium_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3B14AFAE61499510"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56E44B7522419921"
+			tasks: [{
+				id: "16196C3435BD9F93"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["410438525D9A4D74"]
+			id: "6B92C3BD91995136"
+			tasks: [{
+				id: "35F29A2293AEBD9C"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["56E44B7522419921"]
+			id: "2EEBA110274F22EC"
+			tasks: [{
+				id: "2557CB137AB92842"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2EEBA110274F22EC"]
+			id: "410438525D9A4D74"
+			tasks: [{
+				id: "1B1BBAA1B70D500F"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "17042645CCA81466"
+			tasks: [{
+				id: "1D3504A52D1EB7A5"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34DF8844EECA55E0"]
+			id: "477E41F0686699AE"
+			tasks: [{
+				id: "3C698B0321E40C09"
+				item: "aquaculture:neptunium_nugget"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["477E41F0686699AE"]
+			id: "292F2CBFD8B77789"
+			tasks: [{
+				id: "6ECE59C467FB571F"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34DF8844EECA55E0"]
+			id: "6139708BD73D9C43"
+			tasks: [{
+				id: "03E46D9B7A3064DD"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56E44B7522419921"]
+			id: "34DF8844EECA55E0"
+			tasks: [{
+				id: "6A8A287137939B0F"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34DF8844EECA55E0"]
+			id: "377381E5E4B61D05"
+			tasks: [
+				{
+					id: "5E30984F20D7CEA2"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "0298EB6D29DF174B"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "1EB774E87840E89D"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34DF8844EECA55E0"]
+			id: "6C586C636E388445"
+			tasks: [{
+				id: "38E40A8300D50456"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C586C636E388445"]
+			id: "1BDE162C5CA4BB8E"
+			tasks: [{
+				id: "37E2A3B48C7B51A3"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C586C636E388445"]
+			id: "4E50346111576167"
+			tasks: [{
+				id: "474CD932A61908D0"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C586C636E388445"]
+			id: "3AE6BC3F62668E48"
+			tasks: [{
+				id: "6A5FC38992316693"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E50346111576167"]
+			id: "268A601F52CE3606"
+			tasks: [{
+				id: "5961CF11696F73FD"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			id: "6D22D366DAC0DF80"
+			tasks: [{
+				id: "42D0DE6746FB2B58"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "0063497D8B1E3181"
+			tasks: [{
+				id: "024CC616FFE3B578"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "4A1C1146119AC1EC"
+			tasks: [{
+				id: "66F4E0E5B5C5BA3E"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "6CF41B1771C6DBCA"
+			tasks: [{
+				id: "3B8D88ED0DADA0AE"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "550FF1D794A0EB13"
+			tasks: [{
+				id: "1C2CBF831E5DCDCE"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "400222EF7C886E8D"
+			tasks: [{
+				id: "72AE9530194E78C1"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			id: "349CB8603A558151"
+			tasks: [{
+				id: "49A9E058E613FEDD"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "66E568997B276601"
+			tasks: [{
+				id: "3BD485D5B1D90E5A"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "2AA2F7E00C02DED1"
+			tasks: [{
+				id: "2C8EE82C566917DD"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "6B09B75CC29B496E"
+			tasks: [{
+				id: "2408FE373D23C557"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+	]
+	title: "Poissonerie de Neptune"
+}
