@@ -204,6 +204,11 @@
 		}
 		{
 			dependencies: ["2B2CEDF371BB65D9"]
+			icon: {
+				Count: 1
+				id: "minecraft:grass_block"
+				tag: { }
+			}
 			id: "4B24D5618E0C5959"
 			tasks: [{
 				dimension: "minecraft:overworld"

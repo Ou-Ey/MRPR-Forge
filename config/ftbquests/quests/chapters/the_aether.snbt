@@ -296,6 +296,31 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			can_repeat: true
+			id: "68C3F8A42C646E48"
+			rewards: [{
+				id: "38CF287424B79340"
+				item: {
+					Count: 1
+					id: "create:vertical_gearbox"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA4CCD7F1CB4170"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
 	]
 	title: "Aether"
 }

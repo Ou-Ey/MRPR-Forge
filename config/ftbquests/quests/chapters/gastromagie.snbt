@@ -37,8 +37,8 @@
 				item: "minecraft:copper_block"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["249253A49894C415"]
@@ -48,8 +48,517 @@
 				title: "Gastromagie"
 				type: "checkmark"
 			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79C7C90181B034A9"]
+			hide_dependent_lines: true
+			id: "02245EF181D46E7B"
+			tasks: [{
+				id: "59C20EC61E68F2F8"
+				item: "candlelight:table_set"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79C7C90181B034A9"]
+			hide_dependent_lines: true
+			id: "295955F5277750E8"
+			tasks: [{
+				id: "29D9D53EBFC14A67"
+				item: "candlelight:table_bowl"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79C7C90181B034A9"]
+			id: "210935DD697E3FB8"
+			tasks: [
+				{
+					id: "61A1FB479008F226"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C1791F2A51892E0"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C1F9977315F7925"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "758F3646C9CB5FA2"
+					item: {
+						Count: 1
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DD9C11CEBC8D035"
+					item: {
+						Count: 1
+						id: "candlelight:gold_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -5.0d
-			y: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "72BE984BFC062C6A"
+			tasks: [{
+				id: "699FF71CAB065EDD"
+				item: {
+					Count: 1
+					id: "candlelight:tomato_soup"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "2122B9A325DB66DD"
+			tasks: [{
+				id: "001E6AFC83BCCE36"
+				item: {
+					Count: 1
+					id: "candlelight:mushroom_soup"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "1A20CF843B3E563D"
+			tasks: [{
+				id: "3DE215A9F8AB4D67"
+				item: "candlelight:beetroot_salad"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "256B442AC8EDE024"
+			tasks: [{
+				id: "76EA2E3DE48E4AA9"
+				item: {
+					Count: 1
+					id: "candlelight:pasta"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "30C0A8F6200E7A13"
+			tasks: [{
+				id: "30F000C553705111"
+				item: "candlelight:chicken_teriyaki"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "420AD51E1F5283AF"
+			tasks: [{
+				id: "2482AAFA5F4BB887"
+				item: {
+					Count: 1
+					id: "candlelight:bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "6B808B16DD029FE5"
+			tasks: [{
+				id: "65CEEBCAC66269ED"
+				item: "candlelight:lettuce_salad"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["295955F5277750E8"]
+			id: "2F800EF9D096C6FB"
+			tasks: [{
+				id: "694AAB88ADF0180D"
+				item: "candlelight:chocolate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "59211B2467DCEBB8"
+			tasks: [{
+				id: "790E9825E19F1ADE"
+				item: "candlelight:beef_tartare"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "22CE07760796CE00"
+			tasks: [{
+				id: "051ABFC7B1191792"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "0B4D937FECC26794"
+			tasks: [{
+				id: "6605FB3A7C00192F"
+				item: "candlelight:pasta_lettuce"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "3136262F02ED083D"
+			tasks: [{
+				id: "6D5E037919AABB89"
+				item: "candlelight:pancake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "2B6BB850DDEB5349"
+			tasks: [{
+				id: "6697AC478F9224B7"
+				item: {
+					Count: 1
+					id: "candlelight:lettuce_tomato"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "77990F5B8527C190"
+			tasks: [{
+				id: "350B1BC293B69B56"
+				item: "candlelight:veggie_plate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "53EE316D99EBE37B"
+			tasks: [{
+				id: "0AE457C7E34C2F45"
+				item: {
+					Count: 1
+					id: "candlelight:fricasse"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "74A689ADF66DD9C9"
+			tasks: [{
+				id: "65EABDA82A23690A"
+				item: {
+					Count: 1
+					id: "candlelight:tomato_mozzarella_salad"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "13DC4BF7442EAE66"
+			tasks: [{
+				id: "20225E35E3EB0DDC"
+				item: {
+					Count: 1
+					id: "candlelight:pork_ribs"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "3EE5EA2AD177FB30"
+			tasks: [{
+				id: "7A81C144D5F02D92"
+				item: {
+					Count: 1
+					id: "candlelight:roastbeef_carrots"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "2E8F1AF0A195C43A"
+			tasks: [{
+				id: "28A9509F203AADCC"
+				item: {
+					Count: 1
+					id: "candlelight:lettuce_beef"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "479C1D7C6A293DC0"
+			tasks: [{
+				id: "101F227414A4B6FE"
+				item: {
+					Count: 1
+					id: "candlelight:tropical_fish_supreme"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "138810D273955022"
+			tasks: [{
+				id: "544F5E575D23CC32"
+				item: {
+					Count: 1
+					id: "candlelight:cooked_beef"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "19E371F9B869B6BA"
+			tasks: [{
+				id: "4722CF2C25F74D3A"
+				item: {
+					Count: 1
+					id: "candlelight:salmon_wine"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "5ABA61B13DDF34C6"
+			tasks: [{
+				id: "5C0B1F8E4E5C65F2"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_alfredo"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "557226B234B9EE46"
+			tasks: [{
+				id: "547670B1B7D3ACF1"
+				item: {
+					Count: 1
+					id: "candlelight:chicken"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "608443C9B49C021A"
+			tasks: [{
+				id: "00997CC5551DC85F"
+				item: {
+					Count: 1
+					id: "candlelight:lasagne"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["02245EF181D46E7B"]
+			id: "39D90EA6EC1532C2"
+			tasks: [{
+				id: "0034DCDC6E1FD719"
+				item: {
+					Count: 1
+					id: "candlelight:beef_wellington"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["79C7C90181B034A9"]
+			id: "16EA3A930679D93A"
+			tasks: [
+				{
+					id: "4EC8366AA5D9B11D"
+					item: "candlelight:butter"
+					type: "item"
+				}
+				{
+					id: "6C775CB5AA7ADE8E"
+					item: "candlelight:mozzarella"
+					type: "item"
+				}
+				{
+					id: "595B70F29531F6F1"
+					item: "candlelight:dough"
+					type: "item"
+				}
+				{
+					id: "017D5B0B00A69129"
+					item: "candlelight:pasta_raw"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 5.5d
 		}
 	]
 	title: "Gastromagie"

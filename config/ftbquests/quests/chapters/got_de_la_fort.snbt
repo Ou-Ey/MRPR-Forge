@@ -31,7 +31,7 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -51,11 +51,12 @@
 				item: { Count: 4, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3740AFF088204779"]
+			hide_dependent_lines: true
 			id: "1152FCAC318CF3D6"
 			tasks: [{
 				id: "50076B662C1C8954"
@@ -63,7 +64,278 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55515ACC808FFA3B"]
+			id: "4B2A7474CAD3EFAE"
+			tasks: [{
+				id: "56D862636FE68A8D"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["253995DDEC4A8EB9"]
+			id: "007F6CACA1F0614C"
+			tasks: [{
+				id: "61E66EFE88AC967B"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["067888350FDC24A0"]
+			id: "31052638A4EE9B74"
+			tasks: [{
+				id: "480086F97D96143A"
+				item: "herbalbrews:hibiscus_tea"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["078331803DCDEA74"]
+			id: "35D16CB09C95E0A3"
+			tasks: [{
+				id: "20C9028A6105CC95"
+				item: "herbalbrews:lavender_tea"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FD021968534BD09"]
+			id: "001F57801EACBB24"
+			tasks: [{
+				id: "406C3D3A37C32EA7"
+				item: "herbalbrews:coffee"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["001F57801EACBB24"]
+			id: "4450017B17F0B4F1"
+			tasks: [{
+				id: "6FB0F4DE995D6D18"
+				item: "herbalbrews:milk_coffee"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5058E025B3997351"]
+			id: "2CFBB292DBA792B9"
+			tasks: [{
+				id: "29409419AE73F072"
+				item: "herbalbrews:rooibos_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15824E4837EFB163"]
+			id: "32F624CDB14E7B96"
+			tasks: [{
+				id: "5471D941F8312E24"
+				item: "herbalbrews:oolong_tea"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F80E25EEEE86F7B"]
+			id: "1FBF6DFC19F2823E"
+			tasks: [{
+				id: "671BCCED0EE83836"
+				item: "herbalbrews:yerba_mate_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37DBD7C26BF1170D"]
+			id: "77ADA13467EA7C53"
+			tasks: [{
+				id: "077AFAADA9C9D6E4"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "2F80E25EEEE86F7B"
+			tasks: [{
+				id: "6243C9E3D64CBFCD"
+				item: "herbalbrews:yerba_mate_leaf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "5058E025B3997351"
+			tasks: [{
+				id: "338A8E4D773D401B"
+				item: "herbalbrews:rooibos_leaf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "078331803DCDEA74"
+			tasks: [{
+				id: "2D76AAEFEF8D54F0"
+				item: "herbalbrews:lavender"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "067888350FDC24A0"
+			tasks: [{
+				id: "20388DA21F76E1E3"
+				item: "herbalbrews:hibiscus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77ADA13467EA7C53"]
+			id: "15FCA62295FFD790"
+			tasks: [{
+				id: "26D9086090114CD4"
+				item: "herbalbrews:green_tea_leaf_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15FCA62295FFD790"]
+			id: "55515ACC808FFA3B"
+			tasks: [
+				{
+					id: "4D0AC559B7E239F0"
+					item: "herbalbrews:dried_green_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "5EE6E6E288C05AB8"
+					item: "herbalbrews:dried_green_tea"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55515ACC808FFA3B"]
+			id: "253995DDEC4A8EB9"
+			tasks: [
+				{
+					id: "2989FBC03A288EA4"
+					item: "herbalbrews:black_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "73477DA54D2BE2E1"
+					item: "herbalbrews:dried_black_tea"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253995DDEC4A8EB9"]
+			id: "68616BB84E46F434"
+			tasks: [{
+				id: "24836BD2E074467A"
+				item: "herbalbrews:mixed_tea_leaf_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68616BB84E46F434"]
+			id: "15824E4837EFB163"
+			tasks: [
+				{
+					id: "70DB77252BA48C57"
+					item: "herbalbrews:oolong_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "06EE054F4749570A"
+					item: "herbalbrews:dried_oolong_tea"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "55C65FB3E3B2E4D2"
+			tasks: [
+				{
+					id: "77C4B1486EA5E505"
+					item: {
+						Count: 1
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1608473607DD9CC9"
+					item: {
+						Count: 1
+						id: "herbalbrews:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1152FCAC318CF3D6"]
+			id: "2FD021968534BD09"
+			tasks: [{
+				id: "64863FE81BDB26EF"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "\"Leaf juice\""

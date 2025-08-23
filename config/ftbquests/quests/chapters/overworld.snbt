@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "268A05DFD4D5427A"
 			rewards: [
 				{
@@ -37,7 +36,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "3DAB175493B08089"
 			rewards: [{
 				id: "29B13597289089F3"
@@ -64,7 +62,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "26EA75D177BC496B"
 			rewards: [
 				{
@@ -91,7 +88,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "3EA4CB4D9C90B767"
 			rewards: [{
 				id: "0EF5197E4E7ED8F3"
@@ -111,7 +107,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			icon: "cataclysm:mech_eye"
 			id: "1A118FBA223B14F9"
 			rewards: [{
@@ -134,27 +129,6 @@
 			y: 1.0d
 		}
 		{
-			id: "2574E7CF699D5B45"
-			size: 1.5d
-			subtitle: "Breaking a log with an axe will destroy the entire tree attached. Sneaking while destroying a log will prevent this."
-			tasks: [{
-				id: "0470194500CBE26C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "Any #minecraft:logs"
-				type: "item"
-			}]
-			title: "Obtain a &2Wooden Log"
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
 			icon: "cataclysm:abyss_eye"
 			id: "0353FDDEA821D925"
 			rewards: [{
@@ -177,7 +151,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "233BA969DA5AA027"
 			rewards: [{
 				id: "4855400530BD87E7"
@@ -197,7 +170,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "5CEF21E35885E955"
 			rewards: [{
 				id: "72B831667F31BD94"
@@ -223,7 +195,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "0226F89EEC57C5EC"
 			rewards: [{
 				id: "78658FFD3CABA528"
@@ -252,7 +223,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "1FA308C8C319403E"
 			rewards: [{
 				id: "0C267DF448BB3193"
@@ -303,7 +273,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "6401C96CA77FEE8E"
 			rewards: [{
 				count: 3
@@ -325,7 +294,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2574E7CF699D5B45"]
 			id: "6E8F5B69CC8AFF2A"
 			rewards: [{
 				id: "212959892DE457CB"

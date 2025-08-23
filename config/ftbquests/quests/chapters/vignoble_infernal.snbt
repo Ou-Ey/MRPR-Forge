@@ -82,7 +82,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7BFB3F619E1B43C5"]
@@ -94,7 +94,940 @@
 			}]
 			title: "Vignoble infernal"
 			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4FB951B1E3193101"]
+			id: "2C7849057D3AD6B0"
+			tasks: [
+				{
+					id: "7172F6BAD5759490"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AECD0D901B4B2CB"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "663DF583BF0AEEF6"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07BE45DB15D9B620"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "3041EFF1FA752216"
+			tasks: [{
+				id: "708359C39DB69483"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "24499D92AFCA80E8"
+			tasks: [{
+				id: "70E9964E37FDACF0"
+				item: "vinery:white_grape"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "489E896434C7C77A"
+			tasks: [{
+				id: "6FA2981897DA2D0A"
+				item: "vinery:savanna_grapes_red"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "07505111105A3B89"
+			tasks: [{
+				id: "4589411303B21D11"
+				item: "vinery:taiga_grapes_red"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "3DA09359F5295098"
+			tasks: [{
+				id: "09E52CE75F941E1E"
+				item: "vinery:savanna_grapes_white"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "15E7EDD050BEEAFF"
+			tasks: [{
+				id: "785153ABF500CA05"
+				item: "vinery:taiga_grapes_white"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "7CE4D2813397EBB0"
+			tasks: [{
+				id: "781E15ABF5265973"
+				item: "vinery:jungle_grapes_red"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "1298902C0C7F1515"
+			tasks: [{
+				id: "3849E4CFAF3B4CA5"
+				item: "vinery:jungle_grapes_white"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "02AD9DDC86E2AFC5"
+			tasks: [{
+				id: "76909489F1FA4787"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E9B0F33CC5D22A0"]
+			id: "183FF274670C60CA"
+			tasks: [{
+				id: "6921B9C6AFD57081"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E9B0F33CC5D22A0"]
+			id: "13D93B3A362DF64D"
+			tasks: [{
+				id: "32ACAD344FD7C4EB"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E9B0F33CC5D22A0"]
+			id: "095F28C4CD0A19A9"
+			tasks: [{
+				id: "01AF5A5661C73B96"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3041EFF1FA752216"]
+			id: "3BF36B8F70F08933"
+			tasks: [{
+				id: "370BB9CBA000DAA3"
+				item: "vinery:red_grapejuice"
+				type: "item"
+			}]
+			x: -4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["7CE4D2813397EBB0"]
+			id: "21256C14214C9626"
+			tasks: [{
+				id: "43B48BDFF5EF8798"
+				item: "vinery:red_jungle_grapejuice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["07505111105A3B89"]
+			id: "00541C16A77890A6"
+			tasks: [{
+				id: "2A69609DA06E232D"
+				item: "vinery:red_taiga_grapejuice"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["489E896434C7C77A"]
+			id: "2CB94087DAABD9B3"
+			tasks: [{
+				id: "5EBFA9BA80E6FF67"
+				item: "vinery:red_savanna_grapejuice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3DA09359F5295098"]
+			id: "71D3DF7780AB78F6"
+			tasks: [{
+				id: "019086B1E6AC22E5"
+				item: "vinery:white_savanna_grapejuice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1298902C0C7F1515"]
+			id: "653309D1098913B6"
+			tasks: [{
+				id: "7534AF304D3FED7A"
+				item: "vinery:white_jungle_grapejuice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15E7EDD050BEEAFF"]
+			id: "61F3839904287C76"
+			tasks: [{
+				id: "36AA1FB209AAF1FB"
+				item: "vinery:white_taiga_grapejuice"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24499D92AFCA80E8"]
+			id: "3AE485CF4312DFAD"
+			tasks: [{
+				id: "2C556C6AA5751959"
+				item: "vinery:white_grapejuice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4FB691897760BA"]
+			id: "13299F5BD9C85763"
+			tasks: [{
+				id: "263521964F5A9D0F"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13299F5BD9C85763"]
+			id: "1113184BE87EB9D4"
+			tasks: [{
+				id: "3029BEFBB68CD622"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13299F5BD9C85763"]
+			id: "794239049BF54AE5"
+			tasks: [{
+				id: "49A98AB1DFA986E0"
+				item: {
+					Count: 1
+					id: "vinery:apple_cider"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13299F5BD9C85763"]
+			id: "61E7675855FE6D5B"
+			tasks: [{
+				id: "1A065A56A59F6107"
+				item: {
+					Count: 1
+					id: "vinery:apple_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AE485CF4312DFAD"]
+			id: "2C03309E65D26CEB"
+			tasks: [{
+				id: "63A5990BBC08D0CD"
+				item: {
+					Count: 1
+					id: "vinery:mellohi_wine"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AE485CF4312DFAD"]
+			id: "6F2E203B13688118"
+			tasks: [{
+				id: "58F42053F35A8FCE"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AE485CF4312DFAD"]
+			id: "6FE3A5ABCBEE8B05"
+			tasks: [{
+				id: "20BD996B5B417257"
+				item: {
+					Count: 1
+					id: "vinery:solaris_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BF36B8F70F08933"]
+			id: "1E4B49AB068D6712"
+			tasks: [{
+				id: "5E85F6512E2330B1"
+				item: {
+					Count: 1
+					id: "vinery:noir_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3BF36B8F70F08933"]
+			id: "7C52EB7164767768"
+			tasks: [{
+				id: "258848909FDE1157"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3BF36B8F70F08933"]
+			id: "199C931998176319"
+			tasks: [{
+				id: "277461777D7E8E06"
+				item: {
+					Count: 1
+					id: "vinery:strad_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"02AD9DDC86E2AFC5"
+				"3BF36B8F70F08933"
+			]
+			id: "147575BDF983BEFA"
+			tasks: [{
+				id: "48BE7D178FCB9E1C"
+				item: {
+					Count: 1
+					id: "vinery:cherry_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BF36B8F70F08933"]
+			id: "0FCFC592A3E47067"
+			tasks: [{
+				id: "639DFEE52A784E4E"
+				item: {
+					Count: 1
+					id: "vinery:cristel_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["71D3DF7780AB78F6"]
+			id: "5ACBC8D1021C238B"
+			tasks: [{
+				id: "6C53C23EB1CFA7B4"
+				item: {
+					Count: 1
+					id: "vinery:creepers_crush"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D3DF7780AB78F6"]
+			id: "6A93B76880B24AFA"
+			tasks: [{
+				id: "46257B2BCE42AD63"
+				item: {
+					Count: 1
+					id: "vinery:kelp_cider"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2CB94087DAABD9B3"]
+			id: "55EAE642C82F7797"
+			tasks: [{
+				id: "47E20C190261AAA2"
+				item: {
+					Count: 1
+					id: "vinery:lilitu_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2CB94087DAABD9B3"]
+			id: "1F9FC7E870E3C3D2"
+			tasks: [{
+				id: "7AFDBCA94D6F8961"
+				item: {
+					Count: 1
+					id: "vinery:jo_special_mixture"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["61F3839904287C76"]
+			id: "7E12D1FBF62728E8"
+			tasks: [{
+				id: "2CF5A3459E59E83E"
+				item: {
+					Count: 1
+					id: "vinery:eiswein"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61F3839904287C76"]
+			id: "42A6F7FECE2EE045"
+			tasks: [{
+				id: "798181F1B6CEE3F9"
+				item: {
+					Count: 1
+					id: "vinery:aegis_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00541C16A77890A6"]
+			id: "6497650A4C971C0D"
+			tasks: [{
+				id: "608C728C85E23B1D"
+				item: {
+					Count: 1
+					id: "vinery:bolvar_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00541C16A77890A6"]
+			id: "138D52828963DC7D"
+			tasks: [{
+				id: "543ED3EDD9A5BD25"
+				item: {
+					Count: 1
+					id: "vinery:chorus_wine"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["653309D1098913B6"]
+			id: "3C8BF3175DE368ED"
+			tasks: [{
+				id: "766777DE2913F566"
+				item: {
+					Count: 1
+					id: "vinery:villagers_fright"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["653309D1098913B6"]
+			id: "2879DC8F4AC83CB9"
+			tasks: [{
+				id: "11C9053FD6EE1122"
+				item: {
+					Count: 1
+					id: "vinery:clark_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21256C14214C9626"]
+			id: "3D4E696202DD0016"
+			tasks: [{
+				id: "2B6EDDAC8AC8DA81"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21256C14214C9626"]
+			id: "187555A3F0A8ED58"
+			tasks: [{
+				id: "223F0C1DBB95788A"
+				item: {
+					Count: 1
+					id: "vinery:stal_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["21256C14214C9626"]
+			id: "2C99C14F2951304D"
+			tasks: [{
+				id: "1CA1426BD53EC1F3"
+				item: {
+					Count: 1
+					id: "vinery:chenet_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["147575BDF983BEFA"]
+			id: "66DDDC18AC5C3D09"
+			tasks: [{
+				id: "2EC0EAEBE245D6CF"
+				item: {
+					Count: 1
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3AE485CF4312DFAD"
+				"2C99C14F2951304D"
+				"6497650A4C971C0D"
+				"61E7675855FE6D5B"
+			]
+			hide_dependency_lines: true
+			id: "43BA9DB092F14545"
+			tasks: [{
+				id: "3A8FC308CB87A27B"
+				item: {
+					Count: 1
+					id: "vinery:jellie_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["095F28C4CD0A19A9"]
+			id: "4F4FB691897760BA"
+			tasks: [{
+				id: "1F61F9F95E54B773"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "10EFA4AE14AFE7AC"
+			tasks: [{
+				id: "546318E1814AF97C"
+				item: "nethervinery:crimson_grape"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D93B3A362DF64D"]
+			id: "2234080C258BEF57"
+			tasks: [{
+				id: "3AA797E66225E60E"
+				item: "nethervinery:warped_grape"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10EFA4AE14AFE7AC"]
+			id: "4F8856429BD6275C"
+			tasks: [{
+				id: "5B92DDF192A9827B"
+				item: "nethervinery:crimson_grapejuice"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F8856429BD6275C"]
+			id: "58803DC0C240922A"
+			tasks: [{
+				id: "7499FE1DFB8EE289"
+				item: {
+					Count: 1
+					id: "nethervinery:blazewine_pinot"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4F8856429BD6275C"]
+			id: "268B7B87F29B08DE"
+			tasks: [{
+				id: "3774757EB31042D4"
+				item: {
+					Count: 1
+					id: "nethervinery:netherite_nectar"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["702CBA7AAD0CD1CC"]
+			id: "753FBEDEA2217B44"
+			tasks: [{
+				id: "1A5B80DE54307D9F"
+				item: {
+					Count: 1
+					id: "nethervinery:ghastly_grenache"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2234080C258BEF57"]
+			id: "702CBA7AAD0CD1CC"
+			tasks: [{
+				id: "15E82282B58C44D0"
+				item: "nethervinery:warped_grapejuice"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F8856429BD6275C"]
+			id: "16CFD6619B916596"
+			tasks: [{
+				id: "667C8A71453AA4E0"
+				item: {
+					Count: 1
+					id: "nethervinery:nether_fizz"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["702CBA7AAD0CD1CC"]
+			id: "6AB64417E1B29685"
+			tasks: [{
+				id: "1B041FBE32C66072"
+				item: {
+					Count: 1
+					id: "nethervinery:lava_fizz"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AB64417E1B29685"]
+			id: "344044F06EA76082"
+			tasks: [{
+				id: "14B74EC1559A4545"
+				item: {
+					Count: 1
+					id: "nethervinery:improved_lava_fizz"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["16CFD6619B916596"]
+			id: "7D0ED01C20AC3C40"
+			tasks: [{
+				id: "75B552BBE69286B2"
+				item: {
+					Count: 1
+					id: "nethervinery:improved_nether_fizz"
+					tag: {
+						EffectAmplifier: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.5d
 		}
 	]
 	title: "Vignoble infernal"
