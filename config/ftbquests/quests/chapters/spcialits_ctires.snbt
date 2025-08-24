@@ -11,6 +11,7 @@
 	quests: [
 		{
 			dependencies: ["45D45064C9488B13"]
+			hide_dependent_lines: true
 			id: "2780DE49A31323F7"
 			tasks: [{
 				id: "7B1454BAB242DC23"
@@ -18,7 +19,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -36,7 +37,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2780DE49A31323F7"]
@@ -250,8 +251,8 @@
 				item: "beachparty:coconut"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5D2B0916DC867B9E"]
@@ -261,8 +262,8 @@
 				item: "beachparty:coconut_open"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -352,8 +353,8 @@
 				item: "beachparty:raw_mussel_meat"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50D9702494166BCA"]
@@ -363,8 +364,8 @@
 				item: "beachparty:cooked_mussel_meat"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2780DE49A31323F7"]
@@ -374,8 +375,8 @@
 				item: "beachparty:seashell"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "Spécialités côtières"

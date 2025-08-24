@@ -401,34 +401,11 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [
-				{
-					id: "57D1954039E03CDB"
-					item: "botania:mana_pool"
-					type: "item"
-				}
-				{
-					id: "558649C69096D2D7"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "botania:hydroangeas"
-								}
-								{
-									Count: 1b
-									id: "botania:endoflame"
-								}
-							]
-						}
-					}
-					title: "Starter Generating Flowers"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57D1954039E03CDB"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
 			title: "&bMana&r"
 			x: 9.0d
 			y: 1.7999999999999994d
@@ -462,52 +439,8 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "43C86CA84DC14E8A"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:manasteel_ingot"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_pearl"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_diamond"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_string"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_powder"
-							}
-							{
-								Count: 1b
-								id: "botania:quartz_mana"
-							}
-							{
-								Count: 1b
-								id: "botania:manasteel_block"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_glass"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_diamond_block"
-							}
-						]
-					}
-				}
-				title: "Mana-Infused Materials"
+				id: "0A204E4706F7D8ED"
+				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
 			title: "Creating Mana-Infused Resources"
@@ -529,11 +462,6 @@
 					id: "79AC804008C918D8"
 					item: "botania:lexicon"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7A10DF6D1C9627FC"
-					type: "random"
 				}
 				{
 					id: "19ED2A28735EC524"
@@ -2206,46 +2134,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "1B91D26F0A805561"
-					item: "botania:runic_altar"
-					type: "item"
-				}
-				{
-					id: "5A06ED36DD9E9681"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "botania:rune_water"
-								}
-								{
-									Count: 1b
-									id: "botania:rune_fire"
-								}
-								{
-									Count: 1b
-									id: "botania:rune_earth"
-								}
-								{
-									Count: 1b
-									id: "botania:rune_air"
-								}
-								{
-									Count: 1b
-									id: "botania:rune_mana"
-								}
-							]
-						}
-					}
-					title: "Basic Runes"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B91D26F0A805561"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
 			title: "Creating Runes"
 			x: 12.5d
 			y: 4.5d
@@ -2403,35 +2296,28 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "28B797392467C851"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_dispersive"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_dominant"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_recessive"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_isolated"
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "573B71E05CE52DF7"
+					item: "botania:spark_upgrade_dispersive"
+					type: "item"
 				}
-				title: "Spark Augments"
-				type: "item"
-			}]
+				{
+					id: "75D436F64CB2343B"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+				{
+					id: "0B07F143E23A48C5"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+				{
+					id: "738914C17EF05BF2"
+					item: "botania:spark_upgrade_isolated"
+					type: "item"
+				}
+			]
 			title: "Spark Augments"
 			x: 21.5d
 			y: 4.0d
@@ -3959,26 +3845,6 @@
 			title: "&aGaia Gear and Trinkets&r"
 			x: 24.5d
 			y: 1.0d
-		}
-		{
-			id: "7A83AEDBCAAC24D0"
-			tasks: [{
-				id: "0C99F93B7B318B1E"
-				item: "botania:record_gaia_1"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -5.0d
-		}
-		{
-			id: "477C2EFD1CC84790"
-			tasks: [{
-				id: "454192B5189DB24C"
-				item: "botania:record_gaia_2"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -5.0d
 		}
 	]
 	title: "Botaniste"

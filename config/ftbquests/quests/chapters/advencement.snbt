@@ -10,6 +10,21 @@
 	quests: [
 		{
 			id: "359672F0A91B6C02"
+			rewards: [{
+				id: "09D774C577BC53D1"
+                item: {
+                    Count: 1
+                    id: "minecraft:apple"
+                    tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+                    }
+                }
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/balanced_diet"
 				criterion: ""
@@ -21,6 +36,22 @@
 		}
 		{
 			id: "185C3CDF6E44132D"
+			rewards: [{
+				id: "5369FA9502E0A920"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:adventure/adventuring_time"
 				criterion: ""
@@ -32,6 +63,22 @@
 		}
 		{
 			id: "4531FEB002666D51"
+			rewards: [{
+				id: "5DC6C4DC1516D3CE"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:adventure/kill_all_mobs"
 				criterion: ""
@@ -43,6 +90,21 @@
 		}
 		{
 			id: "5215977A0C958EFA"
+			rewards: [{
+				id: "19354A7C40C1D8FF"
+                item: {
+                    Count: 1
+                    id: "minecraft:netherite_scrap"
+                    tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+                    }
+                }
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:nether/netherite_armor"
 				criterion: ""
@@ -54,6 +116,22 @@
 		}
 		{
 			id: "6EFA8B7326462F3E"
+			rewards: [{
+				id: "421618EB53A4A801"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:adventure/arbalistic"
 				criterion: ""
@@ -65,6 +143,21 @@
 		}
 		{
 			id: "568C057D5C337DC9"
+			rewards: [{
+				id: "57D7B8AFF0DB0D18"
+                item: {
+                    Count: 1
+                    id: "minecraft:spyglass"
+                    tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+                    }
+                }
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "minecraft:adventure/spyglass_at_dragon"
@@ -90,6 +183,21 @@
 		}
 		{
 			id: "29CE8E0847BE6FAA"
+			rewards: [{
+				id: "2A25C18A9C35F9B4"
+                item: {
+                    Count: 1
+                    id: "minecraft:dragon_breath"
+                    tag: {
+                        Enchantments: [{
+                            id: "ars_elemental:soulbound"
+                            lvl: 1s
+                        }]
+                        Success: 1
+                    }
+                }
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:nether/all_potions"
 				criterion: ""

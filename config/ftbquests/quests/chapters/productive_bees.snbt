@@ -33,6 +33,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3740AFF088204779"]
 			description: [
 				"Welcome to &9Productive Bees&r!"
 				""
