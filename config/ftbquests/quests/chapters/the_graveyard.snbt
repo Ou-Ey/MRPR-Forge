@@ -9,16 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "02DE780A5E0DC9FF"
-			tasks: [{
-				id: "5B4DC57CB81EA53D"
-				item: "graveyard:incarnated_evil_music_disc"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.0d
-		}
-		{
 			id: "479F38DCCDD141D4"
 			tasks: [
 				{
@@ -43,7 +33,7 @@
 				type: "dimension"
 			}]
 			x: -8.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["73EE74AFBF3AA3C9"]
@@ -93,7 +83,7 @@
 				}
 			]
 			x: -5.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["12FF5C69B97B24B7"]
@@ -115,18 +105,20 @@
 					type: "item"
 				}
 				{
-					id: "57CB65B96A15C14A"
-					item: {
-						Count: 1
-						id: "graveyard:vial_of_blood"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					id: "73E24AAB9C724834"
 					structure: "graveyard:lich_prison"
 					type: "structure"
+				}
+				{
+					id: "4F8201F8F462DBC7"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8000001f
+						}
+					}
+					type: "item"
 				}
 			]
 			x: -6.5d

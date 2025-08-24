@@ -12,17 +12,17 @@
 			id: "359672F0A91B6C02"
 			rewards: [{
 				id: "09D774C577BC53D1"
-                item: {
-                    Count: 1
-                    id: "minecraft:apple"
-                    tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
-                    }
-                }
+				item: {
+					Count: 1
+					id: "minecraft:apple"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -42,12 +42,12 @@
 					Count: 1
 					id: "minecraft:leather_boots"
 					tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
 						Damage: 0
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
 					}
 				}
 				type: "item"
@@ -69,12 +69,12 @@
 					Count: 1
 					id: "minecraft:wooden_sword"
 					tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
 						Damage: 0
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
 					}
 				}
 				type: "item"
@@ -92,17 +92,17 @@
 			id: "5215977A0C958EFA"
 			rewards: [{
 				id: "19354A7C40C1D8FF"
-                item: {
-                    Count: 1
-                    id: "minecraft:netherite_scrap"
-                    tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
-                    }
-                }
+				item: {
+					Count: 1
+					id: "minecraft:netherite_scrap"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -122,12 +122,12 @@
 					Count: 1
 					id: "minecraft:crossbow"
 					tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
 						Damage: 0
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
 					}
 				}
 				type: "item"
@@ -145,17 +145,17 @@
 			id: "568C057D5C337DC9"
 			rewards: [{
 				id: "57D7B8AFF0DB0D18"
-                item: {
-                    Count: 1
-                    id: "minecraft:spyglass"
-                    tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
-                    }
-                }
+				item: {
+					Count: 1
+					id: "minecraft:spyglass"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
+					}
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -185,17 +185,17 @@
 			id: "29CE8E0847BE6FAA"
 			rewards: [{
 				id: "2A25C18A9C35F9B4"
-                item: {
-                    Count: 1
-                    id: "minecraft:dragon_breath"
-                    tag: {
-                        Enchantments: [{
-                            id: "ars_elemental:soulbound"
-                            lvl: 1s
-                        }]
-                        Success: 1
-                    }
-                }
+				item: {
+					Count: 1
+					id: "minecraft:dragon_breath"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						Success: 1
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
