@@ -698,8 +698,8 @@
 				type: "item"
 			}]
 			title: "Aluminum Bees"
-			x: -1.0d
-			y: 11.5d
+			x: 3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2067,8 +2067,8 @@
 				type: "checkmark"
 			}]
 			title: "Reed Bee"
-			x: -5.0d
-			y: 15.5d
+			x: 7.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2268,8 +2268,8 @@
 				type: "checkmark"
 			}]
 			title: "CuBee"
-			x: -1.0d
-			y: 14.5d
+			x: 5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2288,7 +2288,7 @@
 				type: "checkmark"
 			}]
 			title: "Dye Bee"
-			x: 1.0d
+			x: -5.0d
 			y: 15.5d
 		}
 		{
@@ -2328,7 +2328,7 @@
 				type: "item"
 			}]
 			title: "Experience Bee"
-			x: -1.0d
+			x: 5.0d
 			y: 15.5d
 		}
 		{
@@ -2354,8 +2354,8 @@
 				type: "checkmark"
 			}]
 			title: "Farmer Bee"
-			x: 2.0d
-			y: 16.0d
+			x: 6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2380,8 +2380,8 @@
 				type: "item"
 			}]
 			title: "Lumber Bee"
-			x: 3.0d
-			y: 15.5d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2460,8 +2460,8 @@
 				type: "item"
 			}]
 			title: "Obsidian Bee"
-			x: 1.0d
-			y: 16.5d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2493,8 +2493,8 @@
 				type: "item"
 			}]
 			title: "Quarry Bee"
-			x: 0.0d
-			y: 16.0d
+			x: 6.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2553,7 +2553,7 @@
 				type: "item"
 			}]
 			title: "Rancher Bee"
-			x: 3.0d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -2593,8 +2593,8 @@
 				type: "item"
 			}]
 			title: "Silky Bee"
-			x: -1.0d
-			y: 16.5d
+			x: 5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2633,8 +2633,8 @@
 				type: "item"
 			}]
 			title: "Silver Bee"
-			x: 1.0d
-			y: 11.5d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2960,86 +2960,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "ae2:fluix_crystal"
-			id: "33422FBDAE11AE82"
-			rewards: [{
-				id: "24B5A6BA1F9F31BB"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Spatial Bee a Fluix Pearl!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:fluix"
-						}
-					}
-				}
-				id: "669BC6911F43DB26"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:fluix"
-							}
-						}
-					}
-				}
-				title: "Fluix Comb"
-				type: "item"
-			}]
-			title: "Fluix Bee"
-			x: 5.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mekanism:fluorite_gem"
-			id: "3F635063EC5A6327"
-			rewards: [{
-				id: "1E107584870E108F"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Diamond Bee Fluorite!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:fluorite"
-						}
-					}
-				}
-				id: "46CFE7B294472FC9"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:fluorite"
-							}
-						}
-					}
-				}
-				title: "Fluorite Comb"
-				type: "item"
-			}]
-			title: "Fluorite Bee"
-			x: 6.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:ice"
 			id: "244ACD7024566001"
 			rewards: [{
@@ -3101,86 +3021,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "alltheores:peridot"
-			id: "761D21C6FBD13EE1"
-			rewards: [{
-				id: "75FB934FE110A59C"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Diamond Bee Peridot!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:peridot"
-						}
-					}
-				}
-				id: "3DE2AD0FFF364185"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:peridot"
-							}
-						}
-					}
-				}
-				title: "Peridot Comb"
-				type: "item"
-			}]
-			title: "Peridot Bee"
-			x: 5.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mysticalagriculture:prosperity_shard"
-			id: "55882C10292B6A3D"
-			rewards: [{
-				id: "677634D163F8DDDB"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Crystalline Bee a Prosperity Block!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:prosperity"
-						}
-					}
-				}
-				id: "544D288D9F81C6D8"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:prosperity"
-							}
-						}
-					}
-				}
-				title: "Prosperity Comb"
-				type: "item"
-			}]
-			title: "ProsperiBee"
-			x: 6.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:red_mushroom"
 			id: "37CD9BF281903F56"
 			rewards: [{
@@ -3217,126 +3057,6 @@
 			title: "Red Shroombee"
 			x: 7.0d
 			y: 14.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:ruby"
-			id: "35E8F1CC0080E45E"
-			rewards: [{
-				id: "240612DCF75988AC"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Diamond Bee a Ruby!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:ruby"
-						}
-					}
-				}
-				id: "2EA19C4E46380CDA"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:ruby"
-							}
-						}
-					}
-				}
-				title: "RuBee Comb"
-				type: "item"
-			}]
-			title: "RuBee"
-			x: 5.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "alltheores:sapphire"
-			id: "3AF30E1EC163E2E3"
-			rewards: [{
-				id: "6DBD9CDC28903F43"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Diamond Bee a Sapphire!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:sapphire"
-						}
-					}
-				}
-				id: "46C7D666D3A4A3D9"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:sapphire"
-							}
-						}
-					}
-				}
-				title: "Sapphire Comb"
-				type: "item"
-			}]
-			title: "Sapphire Bee"
-			x: 5.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mysticalagriculture:soulium_ingot"
-			id: "1EBD5E4410A6DF34"
-			rewards: [{
-				id: "7DA224232096A3B0"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Ghostly Bee a Soulium Dagger!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:soulium"
-						}
-					}
-				}
-				id: "70E72633E49DFF88"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:soulium"
-							}
-						}
-					}
-				}
-				title: "Soulium Comb"
-				type: "item"
-			}]
-			title: "Soulium Bee"
-			x: 7.0d
-			y: 16.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -3466,7 +3186,6 @@
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			icon: "allthemodium:allthemodium_ore"
 			id: "4C0302FF4F63B52E"
 			rewards: [{
 				id: "22627B27D2839167"

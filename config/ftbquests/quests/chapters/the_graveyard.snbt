@@ -5,11 +5,7 @@
 	group: "42B2D05ABFB516BC"
 	icon: "graveyard:altar"
 	id: "36686CBBA778882F"
-<<<<<<< HEAD
 	order_index: 8
-=======
-	order_index: 6
->>>>>>> aaaaaalui
 	quest_links: [ ]
 	quests: [
 		{
